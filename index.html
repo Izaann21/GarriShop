@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Tienda Online</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1>Mi Tienda</h1>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="#">Carrito 🛒<span id="contador-carrito">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Bienvenido a Mi Tienda Online</h2>
+    <p>Productos seleccionados con amor para ti</p>
+    <a href="productos.html" class="btn">Ver productos</a>
+  </section>
+
+  <section class="destacados">
+    <h3>Productos destacados</h3>
+    <div class="productos" id="productos-destacados"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 Mi Tienda | Síguenos en redes</p>
+    <div class="redes">
+      <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">WhatsApp</a>
+    </div>
+  </footer>
+
+  <script src="js/carrito.js"></script>
+</body>
+</html>
